@@ -65,3 +65,27 @@ footer ul {
     padding: 5px;
     margin-top: 100px;
 }
+#welcome {
+    font-size: 25px;
+    background-color: darkturquoise;
+    margin-left: 10px;
+    padding-left: 30px;
+    border-radius: 10px 0px 0px 10px;
+    color: dimgray;
+    padding-right: 10px;
+}
+#chocolate {
+    font-size: 15px;
+    color: firebrick;
+    background-color: grey;
+    padding-left: 30px;
+    border-radius: 10px 10px 10px 10px;
+}
+header p {
+    float: left;
+    font-size: 25px;
+    background-color: darkturquoise;
+    color: dimgray;
+    padding-right: 30px;
+    border-radius: 0px 10px 10px 0px;
+}
