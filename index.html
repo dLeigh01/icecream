@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ice Cream</title>
     <link rel="stylesheet" href="style.css"/>
+    <script src="js/add-content.js"></script>
 </head>
 <body>
   <header>
@@ -15,8 +16,6 @@
     </div>
     <nav>
         <ul>
-            <!--I think this is what the link for Noel's site should be. I am not certain, as he hasn't published it
-            as of the time I am writing this, so hopefully this link works when he does.-->
             <li>
                 <a href="https://nolleo.github.io/MYBIZ/">Home</a>
             </li>
@@ -28,9 +27,9 @@
             </li>
         </ul>
     </nav>
-    <script src="js/print-welcome.js"></script>
-    <script src="js/print-name.js"></script>
-    <script src="js/confirm.js"></script>
+    <script>document.write(printWelcome())</script>
+    <script>document.write(printName())</script>
+    <script> document.write(confirmation()) </script>
   </header>
   <main>
     <article>
